@@ -19,6 +19,8 @@
 		971BD4D2236A6EA9005CD795 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BD4D1236A6EA9005CD795 /* Spot.swift */; };
 		971BD4D4236A6F6E005CD795 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BD4D3236A6F6E005CD795 /* Spots.swift */; };
 		971BD4D6236A872E005CD795 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 971BD4D5236A872E005CD795 /* GoogleService-Info.plist */; };
+		972723AA2379C89D0044A6D5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972723A92379C89D0044A6D5 /* Photo.swift */; };
+		972723AC2379C9960044A6D5 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972723AB2379C9960044A6D5 /* Photos.swift */; };
 		9736E6DC23747FD7005E98C5 /* UIView+addBoarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9736E6DB23747FD7005E98C5 /* UIView+addBoarder.swift */; };
 		9736E6DE2374C3BD005E98C5 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9736E6DD2374C3BD005E98C5 /* ReviewTableViewController.swift */; };
 		975AD3B62375D97B00E72067 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975AD3B52375D97B00E72067 /* Review.swift */; };
@@ -44,6 +46,8 @@
 		971BD4D1236A6EA9005CD795 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		971BD4D3236A6F6E005CD795 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		971BD4D5236A872E005CD795 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		972723A92379C89D0044A6D5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		972723AB2379C9960044A6D5 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		9736E6DB23747FD7005E98C5 /* UIView+addBoarder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBoarder.swift"; sourceTree = "<group>"; };
 		9736E6DD2374C3BD005E98C5 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		975AD3B52375D97B00E72067 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				971BD4D1236A6EA9005CD795 /* Spot.swift */,
 				975AD3B7237863F600E72067 /* Reviews.swift */,
 				975AD3B52375D97B00E72067 /* Review.swift */,
+				972723AB2379C9960044A6D5 /* Photos.swift */,
+				972723A92379C89D0044A6D5 /* Photo.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
@@ -301,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972723AA2379C89D0044A6D5 /* Photo.swift in Sources */,
 				975AD3B8237863F600E72067 /* Reviews.swift in Sources */,
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
+				972723AC2379C9960044A6D5 /* Photos.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
 				3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */,
