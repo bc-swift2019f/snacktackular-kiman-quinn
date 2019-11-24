@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 private let dateFormatter: DateFormatter = {
     let dateFormatter = DateFormatter()
@@ -24,10 +25,22 @@ class SnackUserTableViewCell: UITableViewCell {
     
     var snackUser: SnackUser!{
         didSet{
+            
+            photoImage.layer.cornerRadius = photoImage.frame.size.width / 2
+            photoImage.clipsToBounds = true
+            
             displayNameLabel.text = snackUser.displayName
             emailLabel.text = snackUser.email
             let formattedDate = dateFormatter.string(from: snackUser.userSince)
             userSinceLabel.text = "\(formattedDate)"
+            
+            
+            guard let url = URL(string: snackUser.photoURL)else{
+                photoImage.image = UIImage(named: "singleUser")
+                print("😬error: could not convert to valid url")
+                return
+            }
+            photoImage.sd_setImage(with: url, placeholderImage: UIImage(named: "singleUser"))
         }
     }
     
