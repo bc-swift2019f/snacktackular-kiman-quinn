@@ -17,6 +17,8 @@ class SpotsListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var sortSegmentedControl: UISegmentedControl!
     
+    
+    
     var spots: Spots!
     var authUI: FUIAuth!
     var snackUser: SnackUser!
@@ -101,7 +103,7 @@ class SpotsListViewController: UIViewController {
     }
     
     @IBAction func sortSegmentPressed(_ sender: UISegmentedControl) {
-        
+        sortBasedOnSegmentPressed()
     }
     
     
